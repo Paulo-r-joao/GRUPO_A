@@ -1,6 +1,6 @@
 [
     {
-        "id": "8458830373732862",
+        "id": "fc9acddbd800701f",
         "type": "tab",
         "label": "Flow 2",
         "disabled": false,
@@ -8,467 +8,9 @@
         "env": []
     },
     {
-        "id": "842e59269e42feaf",
-        "type": "tab",
-        "label": "Flow 3",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "f6d8fbae78edba33",
-        "type": "ui-base",
-        "name": "My Dashboard",
-        "path": "/dashboard",
-        "appIcon": "",
-        "includeClientData": true,
-        "acceptsClientConfig": [
-            "ui-notification",
-            "ui-control"
-        ],
-        "showPathInSidebar": false,
-        "headerContent": "page",
-        "navigationStyle": "default",
-        "titleBarStyle": "default",
-        "showReconnectNotification": true,
-        "notificationDisplayTime": 1,
-        "showDisconnectNotification": true,
-        "allowInstall": false
-    },
-    {
-        "id": "bcf36752d70dc804",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "9700f1b20989898c",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "f35441128c256c69",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "test.mosquitto.org",
-        "port": 1883,
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "4a72940d90e1b018",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094ce",
-            "bgPage": "#dedede",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "a4c2d3fa78e137f9",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "test.mosquitto.org",
-        "port": 1883,
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "e3c294d8cf09e0ee",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "0cdfdf34819811df",
-        "type": "ui-theme",
-        "name": "a",
-        "colors": {
-            "surface": "#c7c7c7",
-            "primary": "#0094ce",
-            "bgPage": "#f5f5f5",
-            "groupBg": "#f0f0f0",
-            "groupOutline": "#c7c7c7"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "7225f759fc5aeedf",
-        "type": "tls-config",
-        "name": "",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "certname": "",
-        "keyname": "",
-        "caname": "",
-        "servername": "",
-        "verifyservercert": false,
-        "alpnprotocol": ""
-    },
-    {
-        "id": "015292836eefaeab",
-        "type": "mqtt-broker",
-        "name": "Vinicius",
-        "broker": "114fab7ddbdc46f4a5582af51a52f53f.s1.eu.hivemq.cloud",
-        "port": "8883",
-        "tls": "7225f759fc5aeedf",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": true,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "859ca98ef07861f8",
-        "type": "mqtt-broker",
-        "name": "Bruno",
-        "broker": "114fab7ddbdc46f4a5582af51a52f53f.s1.eu.hivemq.cloud",
-        "port": "8883",
-        "tls": "7225f759fc5aeedf",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": true,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthRetain": "false",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closeRetain": "false",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willRetain": "false",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "tls_hivemq",
-        "type": "tls-config",
-        "name": "HiveMQ TLS",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "certname": "",
-        "keyname": "",
-        "caname": "",
-        "verifyservercert": false
-    },
-    {
-        "id": "48cf8572eb346074",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "mqtt_broker_hivemq",
-        "type": "mqtt-broker",
-        "name": "HiveMQ Cloud",
-        "broker": "31f805d83ca54d5b874fcb52fac74a9b.s1.eu.hivemq.cloud",
-        "port": "8883",
-        "tls": "tls_hivemq",
-        "clientid": "NCA_Dashboard",
-        "autoConnect": true,
-        "usetls": true,
-        "protocolVersion": 4,
-        "keepalive": 60,
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "12b5b88cb5749c59",
-        "type": "ui-page",
-        "name": "Sistema de Monitoramento ",
-        "ui": "f6d8fbae78edba33",
-        "path": "/page1",
-        "icon": "home",
-        "layout": "grid",
-        "theme": "0cdfdf34819811df",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 1,
-        "className": "",
-        "visible": true,
-        "disabled": false
-    },
-    {
-        "id": "3565c41dc43218c6",
-        "type": "ui-group",
-        "name": " Status Placas",
-        "page": "12b5b88cb5749c59",
-        "width": "2",
-        "height": 1,
-        "order": 2,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "713819fdee1fb12a",
-        "type": "ui-group",
-        "name": "Status Clima",
-        "page": "12b5b88cb5749c59",
-        "width": 4,
-        "height": 1,
-        "order": 3,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "298bed94673e4a9c",
-        "type": "ui-group",
-        "name": "Status Sala",
-        "page": "12b5b88cb5749c59",
-        "width": "2",
-        "height": "1",
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": true,
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "7780fe4cfe90d3ea",
-        "type": "ui-group",
-        "name": "Definir Ocupação - Sala",
-        "page": "12b5b88cb5749c59",
-        "width": 4,
-        "height": 1,
-        "order": 4,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "75d5b8cad7e9814e",
-        "type": "ui-group",
-        "name": "Grafico",
-        "page": "12b5b88cb5749c59",
-        "width": 12,
-        "height": 1,
-        "order": 5,
-        "showTitle": true,
-        "className": "",
-        "visible": true,
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "ac6880dc5987fdbd",
-        "type": "ui-spacer",
-        "group": "713819fdee1fb12a",
-        "name": "spacer",
-        "order": 5,
-        "width": 4,
-        "height": 1,
-        "className": ""
-    },
-    {
-        "id": "ac69e3fdaf5879b8",
-        "type": "ui-spacer",
-        "group": "7780fe4cfe90d3ea",
-        "name": "spacer",
-        "order": 3,
-        "width": 4,
-        "height": 1,
-        "className": ""
-    },
-    {
-        "id": "ac69e3f45c3c9dac",
-        "type": "ui-spacer",
-        "group": "7780fe4cfe90d3ea",
-        "name": "spacer",
-        "order": 1,
-        "width": 4,
-        "height": 1,
-        "className": ""
-    },
-    {
-        "id": "1d98a996a18b5e8a",
+        "id": "8faa2955b1806844",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "grafico/temp/umi",
         "qos": "1",
@@ -479,23 +21,23 @@
         "rh": 0,
         "inputs": 0,
         "x": 280,
-        "y": 300,
+        "y": 360,
         "wires": [
             [
-                "b6a239598063a634",
-                "a6ac9839f9df832a",
-                "790c0dcb847fe068",
-                "27068317e076dd4e",
-                "771b557c5fe148f4",
-                "8e8afe2d2995aa44"
+                "e84ca56f79d8ebc6",
+                "8e1198d6c2dbbd4c",
+                "5e337750895e575c",
+                "87d0c25772a70edb",
+                "d75c86d3ae4b8a02",
+                "3ffae80ade402bfe"
             ]
         ]
     },
     {
-        "id": "93c09e5ecf45d960",
+        "id": "c5196c3c29b90be5",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "713819fdee1fb12a",
+        "z": "fc9acddbd800701f",
+        "group": "dcb166015a59f199",
         "order": 1,
         "width": 2,
         "height": 0,
@@ -516,10 +58,10 @@
         "wires": []
     },
     {
-        "id": "470eb4d2407555aa",
+        "id": "30c769c24897638f",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "713819fdee1fb12a",
+        "z": "fc9acddbd800701f",
+        "group": "dcb166015a59f199",
         "order": 2,
         "width": 2,
         "height": 0,
@@ -536,13 +78,13 @@
         "value": "payload.umi",
         "valueType": "msg",
         "x": 800,
-        "y": 360,
+        "y": 320,
         "wires": []
     },
     {
-        "id": "a6ac9839f9df832a",
+        "id": "8e1198d6c2dbbd4c",
         "type": "function",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "function - adicionar °C",
         "func": "let temp = msg.payload.temp;\nlet mensagem = temp + \"°C\";\n\nmsg.payload.tempe = mensagem;\nreturn msg;",
         "outputs": 1,
@@ -555,16 +97,16 @@
         "y": 220,
         "wires": [
             [
-                "93c09e5ecf45d960"
+                "c5196c3c29b90be5"
             ]
         ]
     },
     {
-        "id": "790c0dcb847fe068",
+        "id": "5e337750895e575c",
         "type": "ui-gauge",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "gauge - temperatura",
-        "group": "713819fdee1fb12a",
+        "group": "dcb166015a59f199",
         "order": 3,
         "value": "payload.temp",
         "valueType": "msg",
@@ -614,11 +156,11 @@
         ]
     },
     {
-        "id": "b6a239598063a634",
+        "id": "e84ca56f79d8ebc6",
         "type": "ui-gauge",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "gauge - umi",
-        "group": "713819fdee1fb12a",
+        "group": "dcb166015a59f199",
         "order": 4,
         "value": "payload.humi",
         "valueType": "msg",
@@ -668,15 +210,15 @@
         "styleGlow": false,
         "className": "",
         "x": 550,
-        "y": 320,
+        "y": 360,
         "wires": [
             []
         ]
     },
     {
-        "id": "27068317e076dd4e",
+        "id": "87d0c25772a70edb",
         "type": "function",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "function - adicionar %",
         "func": "let umi = msg.payload.humi;\nlet mensagem = umi + \"%\";\n\nmsg.payload.umi = mensagem;\n\nreturn msg;",
         "outputs": 1,
@@ -686,18 +228,18 @@
         "finalize": "",
         "libs": [],
         "x": 580,
-        "y": 360,
+        "y": 320,
         "wires": [
             [
-                "470eb4d2407555aa"
+                "30c769c24897638f"
             ]
         ]
     },
     {
-        "id": "8a999c044c14b35a",
+        "id": "b9d3d6b7afaf3272",
         "type": "ui-chart",
-        "z": "8458830373732862",
-        "group": "75d5b8cad7e9814e",
+        "z": "fc9acddbd800701f",
+        "group": "1b1d54df8f14fec3",
         "name": "",
         "label": "Histórico de Temperatura",
         "order": 1,
@@ -749,16 +291,16 @@
         "height": 8,
         "className": "",
         "interpolation": "linear",
-        "x": 1050,
-        "y": 180,
+        "x": 1030,
+        "y": 480,
         "wires": [
             []
         ]
     },
     {
-        "id": "771b557c5fe148f4",
+        "id": "d75c86d3ae4b8a02",
         "type": "function",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "temp - grafico",
         "func": "let temp = msg.payload.temp || 0;\nlet t = Date.now();\n\nreturn { \n    topic: \"temperatura\", \n    payload: { x: t, y: temp } \n};",
         "outputs": 1,
@@ -768,17 +310,17 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 180,
+        "y": 480,
         "wires": [
             [
-                "f2a7cb0b01e1f0ee"
+                "9f41b443179875d6"
             ]
         ]
     },
     {
-        "id": "f2a7cb0b01e1f0ee",
+        "id": "9f41b443179875d6",
         "type": "delay",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "pauseType": "queue",
         "timeout": "5",
@@ -792,18 +334,18 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 790,
-        "y": 180,
+        "x": 770,
+        "y": 480,
         "wires": [
             [
-                "8a999c044c14b35a"
+                "b9d3d6b7afaf3272"
             ]
         ]
     },
     {
-        "id": "8e8afe2d2995aa44",
+        "id": "3ffae80ade402bfe",
         "type": "function",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "umi - grafico",
         "func": "let umi = msg.payload.humi || 0;\nlet t = Date.now();\n\nreturn { \n    topic: \"umidade\", \n    payload: { x: t, y: umi } \n};",
         "outputs": 1,
@@ -813,18 +355,18 @@
         "finalize": "",
         "libs": [],
         "x": 550,
-        "y": 400,
+        "y": 440,
         "wires": [
             [
-                "9e0bbb3b59773b2f"
+                "2a312e9c2bb1d11b"
             ]
         ]
     },
     {
-        "id": "b554495249292710",
+        "id": "4ff4a82b6f8e6220",
         "type": "ui-chart",
-        "z": "8458830373732862",
-        "group": "75d5b8cad7e9814e",
+        "z": "fc9acddbd800701f",
+        "group": "1b1d54df8f14fec3",
         "name": "",
         "label": "Histórico de Umidade",
         "order": 2,
@@ -877,15 +419,15 @@
         "className": "",
         "interpolation": "linear",
         "x": 1020,
-        "y": 400,
+        "y": 440,
         "wires": [
             []
         ]
     },
     {
-        "id": "9e0bbb3b59773b2f",
+        "id": "2a312e9c2bb1d11b",
         "type": "delay",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "pauseType": "queue",
         "timeout": "5",
@@ -900,17 +442,17 @@
         "allowrate": false,
         "outputs": 1,
         "x": 770,
-        "y": 400,
+        "y": 440,
         "wires": [
             [
-                "b554495249292710"
+                "4ff4a82b6f8e6220"
             ]
         ]
     },
     {
-        "id": "d6e78115d8b8fce1",
+        "id": "aa2a99a9a21a5b6c",
         "type": "function",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "ocup - grafico",
         "func": "let ocup = global.get(\"ocup_atual\") || 0;\n\n// timestamp\nlet t = Date.now();\n\nreturn { topic:\"ocupacao\",   payload:{ x:t, y:ocup } }\n\n",
         "outputs": 1,
@@ -920,17 +462,17 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 480,
+        "y": 520,
         "wires": [
             [
-                "c8981b894a82b322"
+                "71d2ac59769444a8"
             ]
         ]
     },
     {
-        "id": "59b6e6ad1c26d3ed",
+        "id": "876b92e959838ca9",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "ocupacao/grafico",
         "qos": "2",
@@ -941,18 +483,18 @@
         "rh": 0,
         "inputs": 0,
         "x": 280,
-        "y": 480,
+        "y": 520,
         "wires": [
             [
-                "d6e78115d8b8fce1"
+                "aa2a99a9a21a5b6c"
             ]
         ]
     },
     {
-        "id": "8fc37c3dd4accd27",
+        "id": "1ab9f5e132c1c07e",
         "type": "ui-chart",
-        "z": "8458830373732862",
-        "group": "75d5b8cad7e9814e",
+        "z": "fc9acddbd800701f",
+        "group": "1b1d54df8f14fec3",
         "name": "Histórico de Ocupação",
         "label": "Histórico de Ocupação",
         "order": 3,
@@ -1005,21 +547,21 @@
         "className": "",
         "interpolation": "linear",
         "x": 1020,
-        "y": 480,
+        "y": 520,
         "wires": [
             []
         ]
     },
     {
-        "id": "c8981b894a82b322",
+        "id": "71d2ac59769444a8",
         "type": "delay",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
         "timeoutUnits": "seconds",
         "rate": "1",
-        "nbRateUnits": "5",
+        "nbRateUnits": "1",
         "rateUnits": "second",
         "randomFirst": "1",
         "randomLast": "5",
@@ -1027,19 +569,19 @@
         "drop": true,
         "allowrate": false,
         "outputs": 1,
-        "x": 780,
-        "y": 480,
+        "x": 770,
+        "y": 520,
         "wires": [
             [
-                "8fc37c3dd4accd27"
+                "1ab9f5e132c1c07e"
             ]
         ]
     },
     {
-        "id": "829ca786159dbedd",
+        "id": "3e5aeff611093456",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "298bed94673e4a9c",
+        "z": "fc9acddbd800701f",
+        "group": "9db5bbf2dfe5cb7a",
         "order": 2,
         "width": 0,
         "height": 0,
@@ -1056,13 +598,13 @@
         "value": "payload.evento",
         "valueType": "msg",
         "x": 540,
-        "y": 600,
+        "y": 640,
         "wires": []
     },
     {
-        "id": "d623ad9432caca7f",
+        "id": "3a12e55d1b141620",
         "type": "debug",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "debug - Valores Sensor",
         "active": false,
         "tosidebar": true,
@@ -1073,14 +615,14 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 590,
-        "y": 560,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "31174d529be89647",
+        "id": "c3e13c9c1d1ad02d",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "298bed94673e4a9c",
+        "z": "fc9acddbd800701f",
+        "group": "9db5bbf2dfe5cb7a",
         "order": 3,
         "width": 0,
         "height": 0,
@@ -1097,14 +639,14 @@
         "value": "payload.timestamp",
         "valueType": "msg",
         "x": 530,
-        "y": 640,
+        "y": 680,
         "wires": []
     },
     {
-        "id": "d1519621c49a9fec",
+        "id": "ddc49996182481e5",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "298bed94673e4a9c",
+        "z": "fc9acddbd800701f",
+        "group": "9db5bbf2dfe5cb7a",
         "order": 4,
         "width": 0,
         "height": 0,
@@ -1121,13 +663,13 @@
         "value": "payload.ocupacao",
         "valueType": "msg",
         "x": 570,
-        "y": 720,
+        "y": 800,
         "wires": []
     },
     {
-        "id": "2bad6802a3b68eb3",
+        "id": "c1f439780ec06d2e",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "ocupacao",
         "qos": "2",
@@ -1138,19 +680,19 @@
         "rh": 0,
         "inputs": 0,
         "x": 300,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
-                "d1519621c49a9fec",
-                "a30182d4fcd959aa"
+                "ddc49996182481e5",
+                "48eb084dffa01d8f"
             ]
         ]
     },
     {
-        "id": "df03a874e3e883fc",
+        "id": "dafbb8ebc256c25a",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "298bed94673e4a9c",
+        "z": "fc9acddbd800701f",
+        "group": "9db5bbf2dfe5cb7a",
         "order": 1,
         "width": 0,
         "height": 0,
@@ -1167,13 +709,13 @@
         "value": "payload",
         "valueType": "msg",
         "x": 540,
-        "y": 780,
+        "y": 860,
         "wires": []
     },
     {
-        "id": "9f5bb4b6684f4153",
+        "id": "29f6bba97f6c2c4c",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "statusagora",
         "qos": "2",
@@ -1184,18 +726,18 @@
         "rh": 0,
         "inputs": 0,
         "x": 290,
-        "y": 780,
+        "y": 860,
         "wires": [
             [
-                "df03a874e3e883fc"
+                "dafbb8ebc256c25a"
             ]
         ]
     },
     {
-        "id": "74ac70cc4a26ab69",
+        "id": "d09697563570e216",
         "type": "ui-slider",
-        "z": "8458830373732862",
-        "group": "7780fe4cfe90d3ea",
+        "z": "fc9acddbd800701f",
+        "group": "35cc86b72383d9de",
         "name": "Definir ocupação",
         "label": "",
         "tooltip": "",
@@ -1219,17 +761,17 @@
         "colorThumb": "",
         "showTextField": false,
         "x": 810,
-        "y": 720,
+        "y": 800,
         "wires": [
             [
-                "6f2a7c065e2a9df4"
+                "f40106634d31c739"
             ]
         ]
     },
     {
-        "id": "6f2a7c065e2a9df4",
+        "id": "f40106634d31c739",
         "type": "mqtt out",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "definir_ocupacao",
         "qos": "1",
@@ -1241,18 +783,18 @@
         "expiry": "",
         "broker": "859ca98ef07861f8",
         "x": 1050,
-        "y": 720,
+        "y": 800,
         "wires": []
     },
     {
-        "id": "672028fa362551dd",
+        "id": "fc143f947b393437",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "3565c41dc43218c6",
+        "z": "fc9acddbd800701f",
+        "group": "30a33e02531509cc",
         "order": 2,
         "width": 0,
         "height": 2,
-        "name": "Status placa 2",
+        "name": "msg - Status placa 2",
         "label": " - - - - - - -  Placa 2 - - - - - - -",
         "format": "{{msg.payload}}",
         "layout": "col-center",
@@ -1264,19 +806,19 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 560,
-        "y": 100,
+        "x": 580,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "ec8781d7b516d7f1",
+        "id": "c35134b2d12e7af4",
         "type": "ui-text",
-        "z": "8458830373732862",
-        "group": "3565c41dc43218c6",
+        "z": "fc9acddbd800701f",
+        "group": "30a33e02531509cc",
         "order": 1,
         "width": 0,
         "height": 2,
-        "name": "Status placa 1",
+        "name": "msg - Status placa 1",
         "label": " - - - - - - -  Placa 1 - - - - - - -",
         "format": "{{msg.payload}}",
         "layout": "col-center",
@@ -1288,14 +830,14 @@
         "className": "",
         "value": "payload",
         "valueType": "msg",
-        "x": 560,
-        "y": 40,
+        "x": 580,
+        "y": 80,
         "wires": []
     },
     {
-        "id": "8009e95d7709f881",
+        "id": "a9c2245880e51ee1",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "status_placa2",
         "qos": "1",
@@ -1306,17 +848,17 @@
         "rh": 0,
         "inputs": 0,
         "x": 290,
-        "y": 100,
+        "y": 140,
         "wires": [
             [
-                "672028fa362551dd"
+                "fc143f947b393437"
             ]
         ]
     },
     {
-        "id": "eb3f93407d51437b",
+        "id": "756d700a06fb5df1",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "status_placa1",
         "qos": "1",
@@ -1327,17 +869,17 @@
         "rh": 0,
         "inputs": 0,
         "x": 290,
-        "y": 40,
+        "y": 80,
         "wires": [
             [
-                "ec8781d7b516d7f1"
+                "c35134b2d12e7af4"
             ]
         ]
     },
     {
-        "id": "60b447714cf5356d",
+        "id": "ed806601061c19a4",
         "type": "mqtt in",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "",
         "topic": "sensor/hora",
         "qos": "1",
@@ -1348,691 +890,266 @@
         "rh": 0,
         "inputs": 0,
         "x": 290,
-        "y": 600,
+        "y": 640,
         "wires": [
             [
-                "829ca786159dbedd",
-                "31174d529be89647",
-                "d623ad9432caca7f"
+                "3e5aeff611093456",
+                "c3e13c9c1d1ad02d",
+                "3a12e55d1b141620"
             ]
         ]
     },
     {
-        "id": "a30182d4fcd959aa",
+        "id": "48eb084dffa01d8f",
         "type": "debug",
-        "z": "8458830373732862",
+        "z": "fc9acddbd800701f",
         "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 460,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "441194236141b320",
-        "type": "mqtt in",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "vini/topic/placa1/envia",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "015292836eefaeab",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 400,
-        "y": 520,
-        "wires": [
-            [
-                "c85d331083921a5a",
-                "b8e9eb835ac69a0e"
-            ]
-        ]
-    },
-    {
-        "id": "c85d331083921a5a",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "ocupação",
-        "func": "let atual = global.get(\"ocup_atual\") || 0;\nlet max   = global.get(\"ocup_max\")  || 0;\n\n// evento\nif (msg.payload.evento === \"Entrando\") {\n    atual++;\n}\nelse if (msg.payload.evento === \"Saindo\") {\n    atual--;\n}\nelse {\n    msg.payload.evento = \"Neutro\";\n}\n\n// impede que atual fique menor que 0\nif (atual < 0) {\n    atual = 0;\n}\n\n// salva global\nglobal.set(\"ocup_atual\", atual);\n\n// envia msg de atualização\nmsg.payload = {\n    atual: atual,\n    max: max,\n    ocupacao: `${atual}/${max}`,\n    evento: msg.payload.evento\n};\n\n// envia para o dashboard atualizar\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 520,
-        "wires": [
-            [
-                "fb0ba9e1a8416270",
-                "584359230b9c4586",
-                "915c550e83629344",
-                "4007be81fce9df3a",
-                "5ff3a3f89004962c"
-            ]
-        ]
-    },
-    {
-        "id": "fb0ba9e1a8416270",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "bruno/topic/placa2/recebe/ocupacao",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 970,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "3781232ab2d0b67e",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "max sala",
-        "func": "// valor do slider\nlet max = Number(msg.payload);\nif (max > 100) max = 100;\nif (max < 0) max = 0;\n\n// salva global\nglobal.set(\"ocup_max\", max);\n\n// pega o atual salvo\nlet atual = global.get(\"ocup_atual\") || 0;\n\n// garante que msg.payload é objeto\nif (typeof msg.payload !== \"object\" || msg.payload === null) {\n    msg.payload = {};\n}\n\n// adiciona valores sem apagar o restante\nmsg.payload.max = max;\nmsg.payload.atual = atual;\nmsg.payload.ocupacao = `${atual}/${max}`;\n\n// envia adiante\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 620,
-        "y": 580,
-        "wires": [
-            [
-                "fb0ba9e1a8416270",
-                "584359230b9c4586",
-                "433222ec5a854b8e",
-                "5ff3a3f89004962c"
-            ]
-        ]
-    },
-    {
-        "id": "584359230b9c4586",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "msg lotação",
-        "func": "let atual = global.get(\"ocup_atual\") || 0;\nlet max   = global.get(\"ocup_max\") || 0;\n\nif(max <= 0){\n    msg.payload = msg.payload || {};\n    msg.payload.lotacao = \"desconhecido\";\n    return msg;\n}\n\nlet perc = (atual / max) * 100;\n\nif(perc <= 29){\n    msg.payload.lotacao = \"Livre\";\n}\nelse if(perc >= 30 && perc <= 59){\n    msg.payload.lotacao = \"Enchendo\";\n}\nelse if(perc >= 60 && perc <= 74){\n    msg.payload.lotacao = \"Meio Cheio\";\n}\nelse if(perc >= 75 && perc <= 99){\n    msg.payload.lotacao = \"Quase Cheio\";\n}\nelse {\n    msg.payload.lotacao = \"Lotado\";\n}\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 890,
-        "y": 580,
-        "wires": [
-            [
-                "538374da6cfb5cf4"
-            ]
-        ]
-    },
-    {
-        "id": "538374da6cfb5cf4",
-        "type": "switch",
-        "z": "842e59269e42feaf",
-        "name": "Lotação",
-        "property": "payload.lotacao",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Livre",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Enchendo",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Meio Cheio",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Quase Cheio",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Lotado",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 5,
-        "x": 1080,
-        "y": 580,
-        "wires": [
-            [
-                "d1ea980e406cb08f",
-                "f5e7bb33ab53c18a"
-            ],
-            [
-                "d1ea980e406cb08f",
-                "f5e7bb33ab53c18a"
-            ],
-            [
-                "d1ea980e406cb08f",
-                "f5e7bb33ab53c18a"
-            ],
-            [
-                "d1ea980e406cb08f",
-                "f5e7bb33ab53c18a"
-            ],
-            [
-                "d1ea980e406cb08f",
-                "f5e7bb33ab53c18a"
-            ]
-        ]
-    },
-    {
-        "id": "d1ea980e406cb08f",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "Cores",
-        "func": "let cor = \"white\";\n\nswitch (msg.payload.lotacao) {\n    case \"Livre\": cor = \"green\"; break;\n    case \"Enchendo\": cor = \"#E6B800\"; break;\n    case \"Meio Cheio\": cor = \"orange\"; break;\n    case \"Quase Cheio\": cor = \"red\"; break;\n    case \"Lotado\": cor = \"#8B0000\"; break;\n}\n// payload pra UI com cor\nmsg.payload = `<font color=${cor}>${msg.payload.lotacao}</font>`;\n\n// teste1 serializado com somente o texto da lotação\nmsg.teste1 = JSON.stringify({ status: msg.payload.lotacao });\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1330,
-        "y": 560,
-        "wires": [
-            [
-                "f8cae85b06eab52d",
-                "61038789b564dfec"
-            ]
-        ]
-    },
-    {
-        "id": "f8cae85b06eab52d",
-        "type": "debug",
-        "z": "842e59269e42feaf",
-        "name": "debug - Status Ocupação",
         "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1550,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "f5e7bb33ab53c18a",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "placa 2",
-        "func": "let status = msg.payload.lotacao;\nmsg.payload = JSON.stringify({ status: status });\n\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1340,
-        "y": 600,
-        "wires": [
-            [
-                "36bd15768829a969"
-            ]
-        ]
-    },
-    {
-        "id": "62b4138ce0710cb7",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "bruno/topic/placa2/recebe/status",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 1790,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "36bd15768829a969",
-        "type": "delay",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "2",
-        "timeoutUnits": "seconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": true,
-        "allowrate": false,
-        "outputs": 1,
-        "x": 1530,
-        "y": 620,
-        "wires": [
-            [
-                "62b4138ce0710cb7"
-            ]
-        ]
-    },
-    {
-        "id": "915c550e83629344",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "ocupacao/grafico",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "015292836eefaeab",
-        "x": 910,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "5ff3a3f89004962c",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "ocupacao",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 880,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "61038789b564dfec",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "statusagora",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 1510,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "4220f3dee32a4208",
-        "type": "mqtt in",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "definir_ocupacao",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "859ca98ef07861f8",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 420,
-        "y": 580,
-        "wires": [
-            [
-                "3781232ab2d0b67e"
-            ]
-        ]
-    },
-    {
-        "id": "528b07a58dbe3c27",
-        "type": "mqtt in",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "placas/on/off/vini",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "015292836eefaeab",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 420,
-        "y": 200,
-        "wires": [
-            [
-                "780aa33f2396a663"
-            ]
-        ]
-    },
-    {
-        "id": "ccb6db14142b7275",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "Status: Online",
-        "func": "msg.payload = `<font color=green>${msg.payload.status}</font>`\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 160,
-        "wires": [
-            [
-                "d6b0a0f60349ed76"
-            ]
-        ]
-    },
-    {
-        "id": "780aa33f2396a663",
-        "type": "switch",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "property": "payload.status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Online",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Offline",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 610,
-        "y": 200,
-        "wires": [
-            [
-                "ccb6db14142b7275"
-            ],
-            [
-                "b5e2cf7bb5db4713"
-            ]
-        ]
-    },
-    {
-        "id": "b5e2cf7bb5db4713",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "Status: Offline",
-        "func": "msg.payload = `<font color=red>${msg.payload.status}</font>`\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 240,
-        "wires": [
-            [
-                "d6b0a0f60349ed76"
-            ]
-        ]
-    },
-    {
-        "id": "2722dcda3eb2f988",
-        "type": "mqtt in",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "placas/on/off/bruno",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "859ca98ef07861f8",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 410,
-        "y": 340,
-        "wires": [
-            [
-                "2accb10fbe6afe64"
-            ]
-        ]
-    },
-    {
-        "id": "796e30f50c3ac679",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "Status: Online",
-        "func": "msg.payload = `<font color=green>${msg.payload.status}</font>`\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 300,
-        "wires": [
-            [
-                "6a31a384bbdc18ec"
-            ]
-        ]
-    },
-    {
-        "id": "2accb10fbe6afe64",
-        "type": "switch",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "property": "payload.status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Online",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "Offline",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 610,
-        "y": 340,
-        "wires": [
-            [
-                "796e30f50c3ac679"
-            ],
-            [
-                "f3e4c4add26c7952"
-            ]
-        ]
-    },
-    {
-        "id": "f3e4c4add26c7952",
-        "type": "function",
-        "z": "842e59269e42feaf",
-        "name": "Status: Offline",
-        "func": "msg.payload = `<font color=red>${msg.payload.status}</font>`\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 820,
-        "y": 380,
-        "wires": [
-            [
-                "6a31a384bbdc18ec"
-            ]
-        ]
-    },
-    {
-        "id": "6a31a384bbdc18ec",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "status_placa2",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 1060,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "d6b0a0f60349ed76",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "status_placa1",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 1060,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "b8e9eb835ac69a0e",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "sensor/hora",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 630,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "580199fd0f86f9a7",
-        "type": "mqtt out",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "grafico/temp/umi",
-        "qos": "1",
-        "retain": "",
-        "respTopic": "",
-        "contentType": "",
-        "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "859ca98ef07861f8",
-        "x": 900,
-        "y": 720,
-        "wires": []
-    },
-    {
-        "id": "d6315488ff6a7f2c",
-        "type": "mqtt in",
-        "z": "842e59269e42feaf",
-        "name": "",
-        "topic": "bruno/topic/placa2/envia",
-        "qos": "1",
-        "datatype": "auto-detect",
-        "broker": "859ca98ef07861f8",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 390,
-        "y": 720,
-        "wires": [
-            [
-                "580199fd0f86f9a7"
-            ]
-        ]
-    },
-    {
-        "id": "4007be81fce9df3a",
-        "type": "debug",
-        "z": "842e59269e42feaf",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 800,
-        "y": 420,
+        "x": 540,
+        "y": 760,
         "wires": []
     },
     {
-        "id": "433222ec5a854b8e",
-        "type": "debug",
-        "z": "842e59269e42feaf",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 660,
+        "id": "894a7fab1cf1444c",
+        "type": "comment",
+        "z": "fc9acddbd800701f",
+        "name": "Para definir o max da sala",
+        "info": "",
+        "x": 830,
+        "y": 760,
         "wires": []
     },
     {
-        "id": "fb9a5aadcf97d7bd",
+        "id": "859ca98ef07861f8",
+        "type": "mqtt-broker",
+        "name": "Bruno",
+        "broker": "114fab7ddbdc46f4a5582af51a52f53f.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "7225f759fc5aeedf",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dcb166015a59f199",
+        "type": "ui-group",
+        "name": "Status Clima",
+        "page": "b6cbf78709e8be37",
+        "width": 4,
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1b1d54df8f14fec3",
+        "type": "ui-group",
+        "name": "Grafico",
+        "page": "b6cbf78709e8be37",
+        "width": 12,
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "015292836eefaeab",
+        "type": "mqtt-broker",
+        "name": "Vinicius",
+        "broker": "114fab7ddbdc46f4a5582af51a52f53f.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "7225f759fc5aeedf",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9db5bbf2dfe5cb7a",
+        "type": "ui-group",
+        "name": "Status Sala",
+        "page": "b6cbf78709e8be37",
+        "width": "2",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": true,
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "35cc86b72383d9de",
+        "type": "ui-group",
+        "name": "Definir Ocupação - Sala",
+        "page": "b6cbf78709e8be37",
+        "width": 4,
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "30a33e02531509cc",
+        "type": "ui-group",
+        "name": " Status Placas",
+        "page": "b6cbf78709e8be37",
+        "width": "2",
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "7225f759fc5aeedf",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "b6cbf78709e8be37",
+        "type": "ui-page",
+        "name": "Sistema de Monitoramento ",
+        "ui": "f6d8fbae78edba33",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "0cdfdf34819811df",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "f6d8fbae78edba33",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "0cdfdf34819811df",
+        "type": "ui-theme",
+        "name": "a",
+        "colors": {
+            "surface": "#c7c7c7",
+            "primary": "#0094ce",
+            "bgPage": "#f5f5f5",
+            "groupBg": "#f0f0f0",
+            "groupOutline": "#c7c7c7"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "90490828644d6b77",
         "type": "global-config",
         "env": [],
         "modules": {
