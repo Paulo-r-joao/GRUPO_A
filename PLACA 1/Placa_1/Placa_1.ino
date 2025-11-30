@@ -179,8 +179,8 @@ void loop() {
            String timestamp = timeClient.getFormattedTime();
            Serial.println(timestamp);
            PublishOnNodeRED(evento,timestamp);
-         estado_UL1_passou = false;
-         estado_UL2_passou = false;
+         // estado_UL1_passou = false;
+         // estado_UL2_passou = false;
         delay(1000);
       }else{
         Serial.println("  Saída");
@@ -189,8 +189,8 @@ void loop() {
         String timestamp = timeClient.getFormattedTime();
         Serial.println(timestamp);
         PublishOnNodeRED(evento,timestamp);
-        estado_UL1_passou = false;
-        estado_UL2_passou = false;
+        // estado_UL1_passou = false;
+        // estado_UL2_passou = false;
         delay(1000);
       }
     }
