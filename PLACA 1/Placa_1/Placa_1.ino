@@ -31,11 +31,8 @@ bool estado_UL2_passou = false;
   const byte echo_pin_2 = 23;
   // Ultra Sonico 2
 
-int array_distancia_UL1[2];
-int array_distancia_UL2[2];
 unsigned long tempo_UL1 = 0;
 unsigned long tempo_UL2 = 0;
-bool primeira_vez = true;
 //Ultra Sonicos
     const int N = 10;
 
@@ -55,11 +52,6 @@ PubSubClient mqttClient(espClient);
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org",  -10800, 60000);
 //NTPClient
-
-unsigned long atual_millis = 0;
-unsigned long resetor_millis = 0;
-
-//Millis
 
 void connectLocalworks();
 void connectBroker();
@@ -88,7 +80,6 @@ Serial.println("Ultra Sonico 2 - OK");
 //Ultra Sonico 2
 
 timeClient.begin();
-// timeClient.setTimeOffset(-10000);
 // NPTClient
 
 }
@@ -108,7 +99,7 @@ void loop() {
   }
   // Reconexão do Broker
     float distancia_UL1 = 0;
-    for(int i  = 0; i < 5; i++){                  //Sensor faz uma média de 5 leituras para minimizar os ruídos
+    for(int i  = 0; i < 5; i++){                  
       digitalWrite(trigg_pin_1, LOW); 
       delayMicroseconds(10);
       digitalWrite(trigg_pin_1, HIGH); 
@@ -122,7 +113,7 @@ void loop() {
     distancia_UL1 /= 5;
     // Ultra Sonico 1
     float distancia_UL2 = 0;      
-    for(int i  = 0; i < 5; i++){                  //Sensor faz uma média de 5 leituras para minimizar os ruídos
+    for(int i  = 0; i < 5; i++){                 
       digitalWrite(trigg_pin_2, LOW); 
       delayMicroseconds(10);
       digitalWrite(trigg_pin_2, HIGH); 
@@ -136,7 +127,7 @@ void loop() {
     // Ultra Sonico 2
 
 
-
+    
     bufferUL1[idx1] = distancia_UL1;
     idx1 = (idx1 + 1) % N;
     float media1 = 0;
@@ -165,11 +156,6 @@ void loop() {
 
     int movimento_UL1 = desvio_UL1 < -8;
     int movimento_UL2 = desvio_UL2 < -8;
-
-    Serial.print("media1:"); Serial.print(media1);
-    Serial.print(", media2:"); Serial.print(media2);
-    Serial.print(", desvio1:"); Serial.print(desvio_UL1);
-    Serial.print(", desvio2:"); Serial.println(desvio_UL2);
 
     if(movimento_UL1 == true && movimento_UL2 == false ){
     tempo_UL1 = millis();
@@ -219,12 +205,11 @@ void connectLocalworks() {
     
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");
-    delay(1000);
+    delay(500);
   }
   Serial.println("\nConectado!");
 }
 void PublishOnNodeRED(String teste1, String teste2) {
-  // Serial.println("Conectando ao broker");
   mqttClient.setServer(brokerUrl.c_str(), port);
   String userId = "ESP-alves9";
   userId += String(random(0xffff), HEX);
