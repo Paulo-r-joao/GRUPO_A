@@ -19,8 +19,8 @@ const char* topico_2 = "vini/topic/placa1/envia";
 const String LWTMessage = "Offline";
 const int  LWTQoS = 1;
 const bool Retain_LWT = true;
-//bool estado_UL1_passou = false;
-//bool estado_UL2_passou = false;
+bool estado_UL1_passou = false;
+bool estado_UL2_passou = false;
 //LWT
 
   const byte trigg_pin_1 = 22;
@@ -159,11 +159,11 @@ void loop() {
 
     if(movimento_UL1 == true && movimento_UL2 == false ){
     tempo_UL1 = millis();
-    //estado_UL1_passou = true;
+    estado_UL1_passou = true;
 
     }else if(movimento_UL1 == false && movimento_UL2 == true ){
     tempo_UL2 = millis();
-    //estado_UL2_passou = true;
+    estado_UL2_passou = true;
     }
     
   
@@ -179,8 +179,8 @@ void loop() {
            String timestamp = timeClient.getFormattedTime();
            Serial.println(timestamp);
            PublishOnNodeRED(evento,timestamp);
-         // estado_UL1_passou = false;
-         // estado_UL2_passou = false;
+         estado_UL1_passou = false;
+         estado_UL2_passou = false;
         delay(1000);
       }else{
         Serial.println("  Saída");
@@ -189,8 +189,8 @@ void loop() {
         String timestamp = timeClient.getFormattedTime();
         Serial.println(timestamp);
         PublishOnNodeRED(evento,timestamp);
-        // estado_UL1_passou = false;
-        // estado_UL2_passou = false;
+        estado_UL1_passou = false;
+        estado_UL2_passou = false;
         delay(1000);
       }
     }
@@ -205,7 +205,7 @@ void connectLocalworks() {
     
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print(".");
-    delay(1000);
+    delay(500);
   }
   Serial.println("\nConectado!");
 }
